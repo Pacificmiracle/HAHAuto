@@ -17,7 +17,7 @@ class LoginTest(unittest.TestCase):
 
         # Enter in Email Or Mobile Number
         email_mobile = self.driver.find_element_by_xpath("//input[@placeholder='Email or Mobile No.']")
-        email_mobile.send_keys("sabin.maharjan@logicabeans.com")
+        email_mobile.send_keys("sabin.maharjan@abc.com")
         # Enter in Password
         Password = self.driver.find_element_by_xpath("//input[@placeholder='Password']")
         Password.send_keys("test")
